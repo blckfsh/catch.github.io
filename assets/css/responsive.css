@@ -1,0 +1,861 @@
+@media screen and (max-width: 1024px)
+{
+    header nav
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header nav .logo a
+    {
+        font-size: 3em;
+    }
+    header nav .links
+    {
+        position: relative;
+        width: 100%;
+    }
+    header nav .links .menu
+    {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #fff;
+        top: 21px;
+        left: -150%;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    header nav .links .menu.active
+    {
+        left: 0;
+    }
+    header nav .links ul li
+    {
+        padding: 40px 0;
+    }
+    header nav .menu-toggle
+    {
+        display: block;
+        float: right;
+        text-align: right;
+        font-size: 3em;
+    }
+    .home .container
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .home .container .item:nth-child(1),
+    .about .container .item:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    .home .container .item .img-border
+    {
+        height: 550px;
+        width: 550px;
+    }
+    .home .container .item .intro
+    {
+        font-size: 2em;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home .container .item .name
+    {
+        font-size: 4em;
+        text-align: center;
+    }
+    .home .container .item .job-title
+    {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .home .container .item ul.job-info li
+    {
+        font-size: 1.8em;
+    }
+    .home .container .item ul.social li a
+    {
+        font-size: 2.5em;
+    }
+    .home .container .item ul.job-info li a i
+    {
+        font-size: 1.3em;
+    }
+    .home .container .item ul.social
+    {
+        width: 100%;
+    }
+    .about .container, .experience .container
+    {
+        flex-direction: column;
+    }
+    .about .container .item .img-about img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .container .item .title,
+    .what-i-do .container .item .title
+    {
+        font-size: 2.8em;
+    }
+    .about .container .item
+    {
+        text-align: center;
+    }
+    .about .container .item
+    {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .container .item .description
+    {
+        font-size: 2em;
+    }
+    .about .container .item .programming ul li,
+    .about .container .item .download
+    {
+        font-size: 2em;
+    }
+    .about .container .item .download
+    {
+        padding: 25px;
+        border-radius: 50px;
+    }
+    .what-i-do .container .item:nth-child(2)
+    {
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .what-i-do .container .item .flex-item
+    {
+        margin: 0 0 50px 0;
+        text-align: center;
+    }
+    .what-i-do .container .item .flex-item i
+    {
+        font-size: 3em;
+    }
+    .what-i-do .container .item .flex-item .wid-title
+    {
+        font-size: 2.3em;
+    }
+    .what-i-do .container .item .flex-item .wid-description, 
+    .experience .container .item .education .educ-description, 
+    .experience .container .item .experiences .exp-description
+    {
+        font-size: 2em;
+    }
+    .skills .container
+    {
+        flex-direction: column;
+    }
+    .skills .container .item
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .experience .container .item:nth-child(1),
+    .skills .container .item:nth-child(1)
+    {
+        margin-right: auto;
+    }
+    .experience .container .item .title,
+    .skills .container .item .title
+    {
+        font-size: 2.8em;
+        text-align: center;
+    }
+    .skills .container .item .progress .box p
+    {
+        font-size: 1.5em;
+    }
+    .skills .container .item .progress .box p:nth-child(2)
+    {
+        top: -35px;
+    }
+    .experience .container .item:nth-child(2),
+    .skills .container .item:nth-child(2)
+    {
+        margin-left: auto;
+    }
+    .skills .container .item .donut
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .container .item .donut .content .text
+    {
+        font-size: 1.4em;
+    }
+    .skills .container .item .donut .content .number
+    {
+        font-size: 1.8em;
+    }
+    .experience .container .item
+    {
+        flex: 1 1 100%;
+        width: 80%;
+        margin-left: auto;
+    }
+    .experience .container .item .education,
+    .experience .container .item .experiences
+    {
+        margin-bottom: 50px;
+    }
+    .experience .container .item .education .educ-title,
+    .experience .container .item .experiences .exp-title
+    {
+        font-size: 2.1em;
+    }
+    .experience .container .item .education .educ-subtitle,
+    .experience .container .item .experiences .exp-subtitle
+    {
+        font-size: 1.8em;
+    }
+    .experience .container .item:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    .experience .container .item
+    {
+        margin-right: auto;
+    }
+    .portfolio .container .item .title
+    {
+        font-size: 2.8em;
+    }
+    .portfolio .container .item:nth-child(2)
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio .container .item:nth-child(2) .box
+    {
+        width: 80%;
+    }
+    .portfolio .container .item:nth-child(2) .box .details .content a
+    {
+        font-size: 3em;
+    }
+    .portfolio .container .item:nth-child(2) .box .details .content p
+    {
+        font-size: 1.5em;
+    }
+    .contact .container .item .title
+    {
+        font-size: 2.8em;
+    }
+    .contact .container .item:nth-child(2)
+    {
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact .container .item:nth-child(2) .flex-item
+    {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .contact .container .item:nth-child(2) .flex-item .icon
+    {
+        font-size: 2em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .icon
+    {
+        height: 160px;
+        width: 160px;
+    }
+    .contact .container .item:nth-child(2) .flex-item .title
+    {
+        font-size: 2.3em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .subtitle
+    {
+        font-size: 2em;
+    }
+    .contact .container .item:nth-child(1)
+    {
+        padding-top: 100px;
+    }
+    footer .container
+    {
+        flex-direction: column;
+    }
+    footer .container .item
+    {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    footer .container .item:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    footer .container .item ul
+    {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .container .item p
+    {
+        font-size: 1.5em;
+    }
+    footer .container .item ul li a
+    {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .home .container .item .img-border
+    {
+        height: 350px;
+        width: 350px;
+    }
+    .home .container .item .intro
+    {
+        font-size: 1.5em;
+    }
+    .home .container .item .name
+    {
+        font-size: 3.5em;
+    }
+    .home .container .item .job-title
+    {
+        font-size: 2em;
+    }
+    .home .container .item ul.job-info li
+    {
+        font-size: 1.5em;
+    }
+    .home .container .item ul.job-info li a i
+    {
+        font-size: 1em;
+    }
+    .home .container .item ul.social li a
+    {
+        font-size: 1.8em;
+    }
+    .about .container .item .title, 
+    .what-i-do .container .item .title
+    {
+        font-size: 2.5em;
+    }
+    .about .container .item .description
+    {
+        font-size: 1.5em;
+    }
+    .about .container .item .programming ul li,
+    .about .container .item .download
+    {
+        font-size: 1.5em;
+    }
+    .what-i-do .container .item .flex-item .wid-title
+    {
+        font-size: 2em;
+    }
+    .what-i-do .container .item .flex-item .wid-description,
+    .experience .container .item .education .educ-description,
+    .experience .container .item .experiences .exp-description
+    {
+        font-size: 1.5em;
+    }
+    .experience .container .item .title,
+    .skills .container .item .title
+    {
+        font-size: 2.5em;
+    }
+    .experience .container .item .education .educ-title,
+    .experience .container .item .experiences .exp-title
+    {
+        font-size: 1.8em;
+    }
+    .experience .container .item .education .educ-subtitle,
+    .experience .container .item .experiences .exp-subtitle
+    {
+        font-size: 1.5em;
+    }
+    .portfolio .container .item .title,
+    .contact .container .item .title
+    {
+        font-size: 2.5em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .subtitle
+    {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 540px)
+{
+    header nav .logo a,
+    header nav .menu-toggle
+    {
+        font-size: 2em;
+    }
+    header nav .links .menu
+    {
+        font-size: 1em;
+    }
+    header nav .links ul li
+    {
+        padding: 20px 0;
+    }
+    .home .container .item .name
+    {
+        font-size: 2.5em;
+    }
+    .home .container .item .intro
+    {
+        font-size: 1em;
+    }
+    .home .container .item .job-title
+    {
+        font-size: 1.5em;
+    }
+    .home .container .item ul.job-info li
+    {
+        font-size: 1em;
+    }
+    .home .container .item ul.social li a
+    {
+        font-size: 1.3em;
+    }
+    .home .container .item .img-border
+    {
+        height: 250px;
+        width: 250px;
+    }
+    .about .container .item .img-about img
+    {
+        width: 100%;
+    }
+    .home .container .item .img-border
+    {
+        margin-top: 10vh;
+    }
+    .about .container .item .title,
+    .what-i-do .container .item .title
+    {
+        font-size: 2em;
+    }
+    .about .container .item .description
+    {
+        font-size: 1em;
+    }
+    .about .container .item .programming ul li,
+    .about .container .item .download
+    {
+        font-size: 1em;
+    }
+    .about .container .item .download
+    {
+        padding: 15px;
+    }
+    .what-i-do .container .item:nth-child(1)
+    {
+        margin-top: 0;
+    }
+    .what-i-do .container .item .flex-item .wid-title
+    {
+        font-size: 1.5em;
+    }
+    .what-i-do .container .item .flex-item .wid-description,
+    .experience .container .item .education .educ-description,
+    .experience .container .item .experiences .exp-description
+    {
+        font-size: 1em;
+    }
+    .what-i-do .container .item .flex-item i
+    {
+        font-size: 2em;
+    }
+    .experience .container .item .title,
+    .skills .container .item .title
+    {
+        font-size: 2em;
+    }
+    .skills .container .item .progress .box p
+    {
+        font-size: 1em;
+    }
+    .skills .container .item .donut .content .text
+    {
+        font-size: 1em;
+    }
+    .skills .container .item .donut .content .number
+    {
+        font-size: 1.3em;
+    }
+    /* .skills .container .item
+    {
+        margin: 50px auto;
+    } */
+    .experience .container .item .education .educ-title,
+    .experience .container .item .experiences .exp-title
+    {
+        font-size: 1.3em;
+    }
+    .experience .container .item .education .educ-subtitle,
+    .experience .container .item .experiences .exp-subtitle
+    {
+        font-size: 1em;
+    }
+    /* .portfolio .container .item
+    {
+        padding-top: 50px;
+    } */
+    .portfolio .container .item .title,
+    .contact .container .item .title
+    {
+        font-size: 2em;
+    }
+    /* .contact .container .item:nth-child(1)
+    {
+        padding-top: 0;
+    } */
+    .contact .container .item:nth-child(2) .flex-item .icon
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .contact .container .item:nth-child(2) .flex-item .icon i
+    {
+        font-size: 1em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .title
+    {
+        font-size: 1.8em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .subtitle
+    {
+        font-size: 1em;
+    }
+    footer .container .item p
+    {
+        font-size: 1em;
+    }
+    footer .container .item ul li a
+    {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 425px)
+{
+    header nav
+    {
+        width: 98%;
+    }
+    header nav .logo a,
+    header nav .menu-toggle
+    {
+        font-size: 1.5em;
+    }
+    .home .container .item .img-border img
+    {
+        border: 10px solid rgba(0, 0, 0, 0.2);
+    } 
+    .home .container .item .img-border
+    {
+        margin-top: 60px;
+        border: 10px solid #e6e6e6;
+    }
+    .home .container .item .intro
+    {
+        font-size: 0.8em;
+    }
+    .home .container .item .intro
+    {
+        width: 100px;
+    }
+    .home .container .item .name
+    {
+        font-size: 2em;
+    }
+    .home .container .item .job-title
+    {
+        font-size: 1em;
+    }
+    .home .container .item ul.job-info li
+    {
+        font-size: 0.8em;
+    }
+    .home .container .item ul.social li a
+    {
+        font-size: 1em;
+    }
+    .about .container .item .img-about
+    {
+        height: auto;
+    }
+    .about .container .item .img-about img
+    {
+        height: 200px;
+    }
+    .about .container .item .title,
+    .what-i-do .container .item .title
+    {
+        font-size: 1.5em;
+    }
+    .about .container .item .description,
+    .about .container .item .programming ul li,
+    .about .container .item .download
+    {
+        font-size: 0.8em;
+    }
+    .what-i-do .container .item .flex-item .wid-title
+    {
+        font-size: 1em;
+    }
+    .what-i-do .container .item .flex-item .wid-description,
+    .experience .container .item .education .educ-description,
+    .experience .container .item .experiences .exp-description
+    {
+        font-size: 0.8em;
+    }
+    .experience .container .item .title,
+    .skills .container .item .title
+    {
+        font-size: 1.5em;
+    }
+    .experience .container .item .education .educ-title,
+    .experience .container .item .experiences .exp-title
+    {
+        font-size: 1em;
+    }
+    .experience .container .item .education .educ-subtitle,
+    .experience .container .item .experiences .exp-subtitle
+    {
+        font-size: 0.8em;
+    }
+    .portfolio .container .item .title,
+    .contact .container .item .title
+    {
+        font-size: 1.5em;
+    }
+    .portfolio .container .item:nth-child(2) .box .details .content a
+    {
+        font-size: 1.5em;
+    }
+    .portfolio .container .item:nth-child(2) .box .details .content p
+    {
+        font-size: 1em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .title
+    {
+        font-size: 1.5em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .subtitle
+    {
+        font-size: 0.8em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .icon i
+    {
+        font-size: 0.6em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .icon
+    {
+        height: 60px;
+        width: 60px;
+    }
+    footer .container .item p
+    {
+        font-size: 0.8em;
+    }
+    footer .container .item ul li a
+    {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 360px)
+{   
+    .home .container .item .img-border
+    {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    header
+    {
+        padding: 0;
+    }
+    header nav
+    {
+        width: 100%;
+    }
+    header nav .logo a,
+    header nav .menu-toggle
+    {
+        font-size: 1em;
+    }
+    header nav .links .menu
+    {
+        top: 12px;
+        font-size: 0.8em;
+    }
+    header nav .links ul li
+    {
+        padding: 10px 0;
+    }
+    .home .container .item .img-border
+    {
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+    }
+    .home .container .item .intro
+    {
+        font-size: 0.6em;
+        width: 80px;
+    }
+    .home .container .item .name
+    {
+        font-size: 1.5em;
+    }
+    .home .container .item .job-title
+    {
+        font-size: 0.8em;
+    }
+    .home .container .item ul.job-info li
+    {
+        font-size: 0.6em;
+    }
+    .home .container .item ul.social li a
+    {
+        font-size: 0.8em;
+    }
+    .about .container, .experience .container
+    {
+        padding-bottom: 50px;
+    }
+    .about .container .item .img-about img
+    {
+        height: 170px;
+    }
+    .about .container .item .title,
+    .what-i-do .container .item .title
+    {
+        font-size: 1em;
+    }
+    .about .container .item .description, 
+    .about .container .item .programming ul li, 
+    .about .container .item .download
+    {
+        font-size: 0.6em;
+    }
+    .about .container .item .download
+    {
+        padding: 10px;
+    }
+    .what-i-do .container .item .flex-item i
+    {
+        font-size: 1.5em;
+    }
+    .what-i-do .container .item .flex-item .wid-title
+    {
+        font-size: 0.8em;
+    }
+    .what-i-do .container .item:nth-child(2)
+    {
+        margin-bottom: 0;
+    }
+    .what-i-do .container .item .flex-item .wid-description,
+    .experience .container .item .education .educ-description,
+    .experience .container .item .experiences .exp-description
+    {
+        font-size: 0.6em;
+    }
+    .experience .container .item .title,
+    .skills .container .item .title
+    {
+        font-size: 1em;
+    }
+    .skills .container .item
+    {
+        margin: 50px 0;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .skills .container .item .progress .box p
+    {
+        font-size: 0.8em;
+    }
+    .skills .container .item .donut .content .number
+    {
+        font-size: 1em;
+    }
+    .skills .container .item .donut .content .text
+    {
+        font-size: 0.8em;
+    }
+    .experience .container .item .education .educ-title,
+    .experience .container .item .experiences .exp-title
+    {
+        font-size: 0.8em;
+    }
+    .experience .container .item .education .educ-subtitle,
+    .experience .container .item .experiences .exp-subtitle
+    {
+        font-size: 0.6em;
+    }
+    .portfolio .container .item .title, 
+    .contact .container .item .title
+    {
+        font-size: 1em;
+    }
+    .portfolio .container .item:nth-child(2) .box .details .content a
+    {
+        font-size: 1em;
+    }
+    .portfolio .container .item:nth-child(2) .box .details .content p
+    {
+        font-size: 0.8em;
+    }
+    .experience .container
+    {
+        padding-top: 50px;
+    }
+    .portfolio .container .item
+    {
+        padding-top: 50px;
+    }
+    .portfolio .container .item:nth-child(2)
+    {
+        margin-bottom: 0;
+    }
+    .contact .container .item:nth-child(1)
+    {
+        padding-top: 50px;
+    }
+    .contact .container .item:nth-child(2) .flex-item .title
+    {
+        font-size: 1em;
+    }
+    .contact .container .item:nth-child(2) .flex-item .subtitle
+    {
+        font-size: 0.6em;
+    }
+    footer .container .item p
+    {
+        font-size: 0.6em;
+    }
+    footer .container .item ul li a
+    {
+        font-size: 0.8em;
+    }
+}

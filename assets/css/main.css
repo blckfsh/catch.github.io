@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    width: 100%;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    border: 1px solid #f1f2f6;
+    z-index: 9999;
+}
+header nav,
+.container
+{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header nav
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+header nav .logo
+{
+    flex: 1 1 auto;
+}
+header nav .links
+{
+    flex-grow: 3;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+header nav .menu-toggle 
+{
+    display: none;
+}
+header nav .logo a
+{
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+header nav .logo span
+{
+    padding: 5px;
+    padding-bottom: 0;
+    margin-right: 2px;
+    background-color: #FFC312;
+    
+}
+header nav .links ul
+{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    transition: 0.5s;
+}
+header nav .links ul li
+{
+    flex: 1 1 auto;
+}
+header nav .links ul li a,
+.home .container .item ul li a
+
+{
+    text-decoration: none;
+    color: #000;
+}
+.home
+{
+    position: relative;
+    height: 100vh;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home .container
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.home .container .item
+{
+    flex: 1 1 auto;
+}
+.home .container .item .intro
+{
+    width: 120px;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    background-color: #FFC312;
+}
+.home .container .item .name
+{
+    font-size: 3em;
+}
+.home .container .item .job-title
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.home .container .item ul
+{
+    margin-top: 30px;
+    list-style: none;
+}
+.home .container .item ul.job-info li
+{
+    margin-bottom: 10px;
+}
+
+.home .container .item ul.job-info li a i
+{
+    margin-right: 20px;
+    font-size: 1em;
+}
+.home .container .item ul.job-info li a i,
+.home .container .item ul.job-info li a,
+.home .container .item ul.social li a
+{
+    transition: 0.5s;
+}
+
+.home .container .item ul.job-info li a i:hover,
+.home .container .item ul.job-info li a:hover
+{
+    color: #F79F1F; 
+}
+.home .container .item ul.social
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 300px;
+}
+.home .container .item ul.social li
+{
+    flex: 1 1 auto;
+    text-align: center;
+}
+.home .container .item ul.social li a
+{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.home .container .item ul.social li a:hover
+{
+    background-color: #FFC312;
+}
+.home .container .item:nth-child(2),
+.about .container .item:nth-child(1)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .container .item .img-border
+{
+    
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 20px solid #e6e6e6;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.home .container .item .img-border img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 20px solid rgba(0, 0, 0, 0.2);
+}
+.about
+{
+    width: 100%;
+}
+.about .container,
+.experience .container
+{
+    display: flex;
+    direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about .container .item
+{
+    flex: 1 1 100%;
+}
+.about .container .item .title
+{
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about .container .item .description
+{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.about .container .item .programming
+{
+    margin-bottom: 40px;
+}
+.about .container .item .programming ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.about .container .item .programming ul li
+{
+    list-style: none;
+    flex: 1 1 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #F79F1F;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.about .container .item .download
+{
+    padding: 13px;
+    color: #000;
+    background: #FFC312;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.about .container .item .download i
+{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.about .container .item .img-about
+{
+    height: 350px;
+    width: 100%;
+}
+.about .container .item .img-about img
+{
+    height: 100%;
+    width: auto;
+}
+.what-do-i-do,
+.experience
+{
+    width: 100%;
+}
+.what-i-do .container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.what-i-do .container .item:nth-child(1)
+{
+    margin: 50px 0;
+}
+.what-i-do .container .item .title
+{
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+.what-i-do .container .item:nth-child(2)
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.what-i-do .container .item .flex-item
+{
+    flex: 1 1 33%;
+    margin: 20px;
+    padding: 40px 20px;
+    box-shadow: 0px 10px 20px 4px #00000015;
+}
+.what-i-do .container .item .flex-item i
+{
+    font-size: 2em;
+    margin-bottom:20px;
+    color: #F79F1F;
+}
+.what-i-do .container .item .flex-item .wid-title
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.what-i-do .container .item .flex-item .wid-description,
+.experience .container .item .education .educ-description,
+.experience .container .item .experiences .exp-description
+{
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+.skills .container
+{
+    display: flex;
+    flex-direction: row;
+}
+.skills .container .item
+{
+    flex: 1 1 50%;
+    margin: 100px 0;
+}
+.skills .container .item .progress
+{
+    margin-top: 50px;
+}
+.skills .container .item .progress .box
+{
+    margin-bottom: 20px;
+}
+.skills .container .item .progress .box p
+{
+    margin: 0 0 10px;
+    padding: 0;
+}
+.skills .container .item .progress .box p:nth-child(1)
+{
+    font-weight: 600;
+}
+.skills .container .item .progress .box p:nth-child(2)
+{
+    float: right;
+    position: relative;
+    top: -25px;
+}
+.skills .container .item .progress .box .skill
+{
+    background: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.skills .container .item .progress .box .skill .level
+{
+    background: #FFC312; 
+    width: 100%;
+    height: 10px;
+}
+.skills .container .item .donut
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skills .container .item .donut .content
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    margin-right: 20px;
+}
+.skills .container .item .donut .content .number
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+.skills .container .item .donut svg
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+.skills .container .item .donut svg circle
+{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.2);
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+.skills .container .item .donut .content svg circle:nth-child(2)
+{
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.skills .container .item .donut .content:nth-child(1) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke: #FFC312;
+}
+.skills .container .item .donut .content:nth-child(2) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #FFC312;
+}
+.skills .container .item .donut .content:nth-child(3) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: #FFC312;
+}
+.skills .container .item .donut .content:nth-child(4) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #FFC312;
+}
+.skills .container .item .donut .content .text
+{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+}
+.skills .container .item .donut .content .number
+{
+    font-size: 1.2em;
+}
+.experience .container .item
+{
+    flex: 1 1 50%;
+}
+.experience .container .item:nth-child(1),
+.skills .container .item:nth-child(1)
+{
+    margin-right: 25px;
+}
+.experience .container .item:nth-child(2),
+.skills .container .item:nth-child(2)
+{
+    margin-left: 25px;
+}
+.experience .container .item .title,
+.skills .container .item .title
+{
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.experience .container .item .education,
+.experience .container .item .experiences
+{
+    margin: 40px 0;
+    padding: 40px 20px;
+    box-shadow: 0px 10px 20px 4px #00000015;
+}
+.experience .container .item .education .educ-title,
+.experience .container .item .experiences .exp-title
+{
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.experience .container .item .education .educ-title span,
+.experience .container .item .education .educ-subtitle,
+.experience .container .item .experiences .exp-title span,
+.experience .container .item .experiences .exp-subtitle
+{
+    color: #F79F1F;
+}
+.experience .container .item .education .educ-subtitle,
+.experience .container .item .experiences .exp-subtitle
+{
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.experience .container
+{
+    padding-bottom: 0;
+}
+.portfolio .container .item .title
+{
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+.portfolio .container .item:nth-child(2)
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.portfolio .container .item:nth-child(2) .box
+{
+    flex: 1 1 25%;
+    position: relative;
+    width: 350px;
+    height: auto;
+    background: #fff;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.portfolio .container .item:nth-child(2) .box .website
+{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .container .item:nth-child(2) .box .website img
+{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.portfolio .container .item:nth-child(2) .box .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFC312;
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.portfolio .container .item:nth-child(2) .box:hover .details
+{
+    transform: scaleY(1);
+}
+.portfolio .container .item:nth-child(2) .box .details .content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.portfolio .container .item:nth-child(2) .box .details .content a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
+    padding: 10px;
+}
+.portfolio .container .item:nth-child(2) .box .details .content p
+{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.contact .container .item
+{
+    margin: 50px 0;
+}
+.portfolio .container .item
+{
+    padding-top: 100px;
+}
+.contact .container .item .title
+{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.contact .container .item:nth-child(2)
+{
+    display: flex;
+    flex-direction: row;
+}
+.contact .container .item:nth-child(2) .flex-item
+{
+    flex: 1 1 33%;
+    text-align: center;
+    margin: 20px;
+    padding: 40px 20px;
+    box-shadow: 0px 10px 20px 4px #00000015;
+}
+.contact .container .item:nth-child(2) .flex-item .icon
+{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 1px solid #F79F1F;
+    border-radius: 50%;
+}
+.contact .container .item:nth-child(2) .flex-item .icon i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+}
+.contact .container .item:nth-child(2) .flex-item .title
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact .container .item:nth-child(2) .flex-item .subtitle
+{
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+footer
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-top: 1px solid #f1f2f6;
+}
+footer .container
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+footer .container .item
+{
+    flex: 1 1 50%;
+}
+footer .container .item ul
+{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+footer .container .item ul li
+{
+    flex: 1 1 auto;
+    list-style: none;
+}
+footer .container .item ul li a
+{
+    color: #000;
+}
